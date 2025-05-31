@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Livros</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <H1>Pesquisa de Livros</H1>
+    </div>
+
+    <div class="inputs">
+        <label for="input_isbn">
+            Digite o ISBN do livro desejado:
+        </label>
+        <input id="input_isbn" placeholder="Digite Aqui" type="text">
+        <button id="botao_salvar">Salvar</button>
+        <button id="botao_buscar">Buscar</button>
+    </div>
+    <div class="dados_livro">
+        <div class="titulo_livro">
+            <p id="info_tittle"></p> <br>
+            <div>
+                <p id="info_subtittle"></p> <br>
+            </div>
+        </div>
+        <p id="info_isbn"> </p> <br>
+        <p id="info_author"> </p> <br>
+        <p id="info_editora"> </p> <br>
+        <p id="info_sinopse"></p> <br>
+        <p id="info_year"></p> <br>
+        <p id="info_quant"></p> <br>
+        <p id="info_category"></p> <br>
+        <img id="info_img" src="" alt="Capa do Livro">
+
+    </div>
+
+    <div class="tabela_dados">
+
+        <table border="1" id="tabela_livros">
+            <thead>
+                <tr>
+                    <th>ISBN</th>
+                    <th>Nome</th>
+                    <th>Autor</th>
+                    <th>Editora</th>
+                    <th>Sinopse</th>
+                    <th>Quantidade de pag</th>
+                    <th>Capa</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
